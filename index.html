@@ -3,16 +3,17 @@
 
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>WinRar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>WinRar - главная</title>
 </head>
 
 <body>
 
-    <header id="toolbar">
+    <header class="toolbar">
+        <div class="spacer"></div>
         <a class="nav" href="" title="Помощь"> <img class="icon" src="img/помощь.png" /><span>Помощь</span></a>
-        <a class="nav" href="" title="Нашли баг?"> <img src="img/баг.png" /> <span>Нашли баг?</span></a>
-        <a class="nav  top_interaction" href="" title="Форум"><img src="img/форум.png" /><span>Форум</span></a>
+        <a class="nav" href="" title="Нашли баг?"> <img class="icon" src="img/баг.png" /> <span>Нашли баг?</span></a>
+        <a class="nav " href="" title="Форум"><img class="icon" src="img/форум.png" /><span>Форум</span></a>
     </header>
 
     <header id="header">
@@ -26,17 +27,17 @@
                 <div class="download">
                     <a title="Скачать" id="download_button" href=""><img class="icon" src="img/скачать.png" /> Скачать v1.3.6</a>
                 </div>
-                <span class="highlight download_addition">32.7 MB</span> |
+                <span>32.7 MB</span> |
                 Требуется <span class="highlight">Windows 97</span> или новее<br />
-
-                <header id="toolbar">
-                    <a href="" class="scrolly"><img class="icon" src="img/часы.png" /> Изменения</a> |
-                    <a href="#beta" class="scrolly"><img class="icon" src="img/колба.png" /> Бета</a> |
-                    <a href="#legacy" class="scrolly"><img class="icon" src="img/чашка.png" /> Старые версии</a> |
-                    <a href="#defaultapp" class="scrolly"><img class="icon" src="img/инструмент.png" /> Helper</a>
-                </header>
-
             </div>
+            <div class="toolbar">
+                <div class="spacer"></div>
+                <a href="" class="scrolly"><img class="icon" src="img/часы.png" />Изменения</a> <span class="separator"></span>
+                <a href="#beta" class="scrolly"><img class="icon" src="img/колба.png" /> Бета</a> <span class="separator"></span>
+                <a href="#legacy" class="scrolly"><img class="icon" src="img/чашка.png" /> Старые версии</a> <span class="separator"></span>
+                <a href="#defaultapp" class="scrolly"><img class="icon" src="img/инструмент.png" /> Helper</a>
+            </div>
+
         </div>
 
         <img src="img/logo.png" />
@@ -241,7 +242,7 @@
         <p>
             <span class="copyright">&copy; 2022. Все права защищены. </span>
             <br />
-            <span class="moreinfo"><a href="">Политика конфиденциальности</a> - <a href="">Условия пользования</a></span>
+            <span class="moreinfo"><a href="privacy_policy.html">Политика конфиденциальности</a> - <a href="terms_of_use.html">Условия пользования</a></span>
             <br />
             <span class="languages">
                 <a href="">български</a><span class="separator"></span>
